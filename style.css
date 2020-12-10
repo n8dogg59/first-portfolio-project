@@ -1,0 +1,10 @@
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.8em;
+}
+
+.hero {
+    background-image: url('../images/starry-night.jpg');
+    background-size: cover;
+    
+}
