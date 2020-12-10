@@ -1,11 +1,22 @@
+:root {
+    --primary-color: #D5D8DC;
+}
+
 header {
     padding: 20px 35px;
     background-color: #17202A;
 }
 
-h1 {
-    font-family: 'Rock Salt', cursive;
-    font-size: 1.8em;
+header h1 {
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+header nav a {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .hero {
@@ -13,7 +24,3 @@ h1 {
     background-size: cover;    
 }
 
-body {
-    color: #D5D8DC;
-    font-family: Bradley Hand, cursive;
-}
