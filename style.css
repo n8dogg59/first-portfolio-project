@@ -1,3 +1,8 @@
+header {
+    padding: 20px 35px;
+    background-color: #17202A;
+}
+
 h1 {
     font-family: 'Rock Salt', cursive;
     font-size: 1.8em;
@@ -5,6 +10,10 @@ h1 {
 
 .hero {
     background-image: url('../images/starry-night.jpg');
-    background-size: cover;
-    
+    background-size: cover;    
+}
+
+body {
+    color: #D5D8DC;
+    font-family: Bradley Hand, cursive;
 }
