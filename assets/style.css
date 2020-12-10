@@ -58,7 +58,56 @@ header nav ul li a:hover {
 
 /* hero/jumbotron styles start */
 .hero {
-    background-image: url('../images/starry-night.jpg');
-    background-size: cover;    
+    background-image: url('./images/dark-background.jpg');
+    background-size: cover;  
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
+.profile {
+    margin: 75px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profile img {
+    border-radius: 150px;
+    flex: 1 40%;
+    align-items: center;
+    max-width: 300px;
+    max height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.profile h2 {
+    color: var(--primary-color);
+    font-size: 30px;
+    padding: 25px;
+    width: 80%;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.profile p {
+    color: var(--primary-color);
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.profile p::after {
+    content: " \2193";
+}
