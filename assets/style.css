@@ -1,5 +1,6 @@
 :root {
     --primary-color: #D5D8DC;
+    --secondary-color: #333536;
 }
 
 /* header styles begin */
@@ -27,10 +28,6 @@ header h1 {
 
 header a {
     text-decoration: none;
-}
-
-header nav {
-    margin: 10px 0;
 }
 
 header nav ul {
@@ -69,7 +66,7 @@ header nav ul li a:hover {
 }
 
 .profile {
-    margin: 75px auto;
+    margin: 15px auto;
     padding-bottom: 50px;
     width: 80%;
     display: flex;
@@ -111,3 +108,33 @@ header nav ul li a:hover {
 .profile p::after {
     content: " \2193";
 }
+/* hero/jumbotron styles end */
+
+/* About me styles start */
+.intro {
+    padding-bottom: 10px;
+    display: flex;
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 4% 3% 4% 8%;
+}
+
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 10%;
+    text-align: right;
+    align-content: flex-start;
+    color: var(--secondary-color);
+    font-size: 42px;
+    margin-right: 45px;
+}
+
+.description {
+    display: flex;
+    flex: 4 70%;
+    font-size: 20px;
+    flex-direction: column;
+    border-left: 5px solid var(--secondary-color);
+    padding-left: 40px;
+}
+
