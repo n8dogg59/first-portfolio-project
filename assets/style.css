@@ -205,6 +205,17 @@ header nav ul li a:hover {
     grid-row: 5 / 7;
     background-image: url("./images/cbssports.jpg");
 }
+
+.grid-description {
+    background: var(--primary-color);
+    padding: 5px;
+    margin-bottom: 5%;
+
+}
+
+.grid-description p {
+    font-size: 18px;
+}
 /* end work section
 
 /* contact me styles */
