@@ -169,9 +169,10 @@ header nav ul li a:hover {
 
 .grid-item {
     display: flex;
+    flex-wrap: wrap;
     border: 4px solid var(--secondary-color);
     margin: 5px;
-    font-size: 24px;
+    font-size: 20px;
     align-items: flex-end;
     justify-content: flex-start;
     position: relative;
@@ -180,13 +181,11 @@ header nav ul li a:hover {
 .item-run-buddy {
     grid-column: 1 / 3;
     grid-row: 1 / 5;
-    background-image: url("./images/run-buddy.jpg");
 }
 
 .item-horiseon {
     grid-column: 3;
     grid-row: 1 / 3;
-    background-image: url("./images/horiseon.jpg");
 }
 
 .item-purdue {
@@ -197,24 +196,15 @@ header nav ul li a:hover {
 .item-golf-channel {
     grid-column: 1 / 2;
     grid-row: 5 / 7;
-    background-image: url("./images/golfchannel.jpg");
 }
 
 .item-cbssports {
     grid-column: 2 / 3;
     grid-row: 5 / 7;
-    background-image: url("./images/cbssports.jpg");
 }
 
 .grid-description p {
-    font-size: 18px;
-}
-
-.grid-description img {
-    object-fit: cover;
-    display: block;
-    height: 100%;
-    width: 100%;
+    font-size: 14px;
 }
 
 .grid-description {
