@@ -191,6 +191,7 @@ header nav ul li a:hover {
 .item-purdue {
     grid-column: 3;
     grid-row: 3 / 5;
+    background-image: url("./images/purdue.jpg");
 }
 
 .item-golf-channel {
