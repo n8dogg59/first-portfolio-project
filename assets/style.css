@@ -174,6 +174,7 @@ header nav ul li a:hover {
     font-size: 24px;
     align-items: flex-end;
     justify-content: flex-start;
+    position: relative;
 }
 
 .item-run-buddy {
@@ -205,19 +206,27 @@ header nav ul li a:hover {
     background-image: url("./images/cbssports.jpg");
 }
 
-.grid-description {
-    background: var(--primary-color);
-    padding: 5px;
-    margin-bottom: 5%;
-
-}
-
 .grid-description p {
     font-size: 18px;
 }
 
 .grid-description img {
+    object-fit: cover;
+    display: block;
     height: 100%;
+    width: 100%;
+}
+
+.grid-description {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    background: var(--primary-color);
+    padding: 5px;
+    margin-bottom: 5%;
+    max-width: 150px;
 }
 
 /* end work section
@@ -238,13 +247,6 @@ header nav ul li a:hover {
     margin-right: auto;
 }
 
-.resumeimg {
-    display: flex;
-    flex: 2 75%;
-    font-size: 20px;
-    padding-left: 40px;
-    justify-content: space-around;
-}
 
 /* contact me styles */
 .contact {
