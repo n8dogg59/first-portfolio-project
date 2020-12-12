@@ -268,6 +268,11 @@ footer nav ul {
     justify-content: space-around;
     list-style: none;
     align-items: center;
+
+}
+
+footer nav ul li {
+    padding-top: 20px;
 }
 
 footer nav ul li a {
