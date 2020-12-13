@@ -20,7 +20,7 @@ https://n8dogg59.github.io/first-portfolio-project/
 https://github.com/n8dogg59/first-portfolio-project
 
 ## Screenshot
-![](assets/image/portfolio-screenshot.jpg)
+![](assets/images/portfolio-screenshot.jpg)
 
 ### Contribution
 Created by Nate Schroeder
