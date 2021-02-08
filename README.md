@@ -14,7 +14,7 @@ Develop a professional portfolio that will help secure a job as a full stack dev
 * CSS
 
 ## Website
-https://n8dogg59.github.io/first-portfolio-project/
+https://n8dogg59.github.io/first-portfolio-project
 
 ## Github Repository
 https://github.com/n8dogg59/first-portfolio-project
